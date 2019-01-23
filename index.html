@@ -12,7 +12,10 @@
 
 <body>
     <header class="search-container">
-        <section class="search-box">Search</section>
+        <form action="GET" class="search-box">
+            <input type="text" id="search" name="needle" class="search-box__input" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
     </header>
     <main class="content">
         <section class="people">
@@ -139,6 +142,7 @@
             </ul>
         </section>
     </main>
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
