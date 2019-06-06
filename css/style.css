@@ -111,11 +111,12 @@ body {
     border-color: #ec5a62;
 }
 
-.content li.found{
+.content li.active{
     background: #c2c2c2;
 }
-.content li.found a:link,
-.content li.found a:visited{
+.content li.active a:link,
+.content li.active a:visited,
+.content li.favorite a:link{
     color: #585858;
 }
 
